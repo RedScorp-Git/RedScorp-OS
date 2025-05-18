@@ -1,2 +1,2 @@
 # RedScorp-OS
-Operating Systems for Hackers
+Operating System for Hackers
