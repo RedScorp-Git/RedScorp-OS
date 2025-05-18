@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Redscorp
+Description=RedScorp OS plymouth theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/Redscorp
+ScriptFile=/usr/share/plymouth/themes/Redscorp/Redscorp.script
