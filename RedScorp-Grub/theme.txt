@@ -1,0 +1,30 @@
+title-text: ""
+desktop-image: "background.png"
++ boot_menu {
+  left = 25%
+  top = 30%
+  width = 50%
+  height = 40%
+  item_height = 1
+  item_padding = 1
+  font = "DejaVu Sans 16"
+  selected_color = "#ff0000"
+  color = "#ffffff"
+}
+
++ label {
+  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
+  left = 25%
+  top = 80%
+  font = "DejaVu Sans 12"
+  color = "#cccccc"
+}
+
++ label {
+  text = "Booting in ${timeout} seconds..."
+  id = "__timeout__"
+  left = 40%
+  top = 85%
+  font = "DejaVu Sans 12"
+  color = "#aaaaaa"
+}
